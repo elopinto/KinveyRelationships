@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4109531C8754760057E973 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4109521C8754760057E973 /* Event.swift */; };
+		2B4109551C87553D0057E973 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4109541C87553D0057E973 /* Invitation.swift */; };
+		2B4400011C8751350001CC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4400001C8751350001CC60 /* Assets.xcassets */; };
+		2B4400041C8751350001CC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4400021C8751350001CC60 /* LaunchScreen.storyboard */; };
+		2B44000F1C8751360001CC60 /* KinveyRelationshipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44000E1C8751360001CC60 /* KinveyRelationshipsTests.swift */; };
+		2B44001A1C8751360001CC60 /* KinveyRelationshipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4400191C8751360001CC60 /* KinveyRelationshipsUITests.swift */; };
+		2B44FFFA1C8751350001CC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44FFF91C8751350001CC60 /* AppDelegate.swift */; };
+		2B44FFFC1C8751350001CC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44FFFB1C8751350001CC60 /* ViewController.swift */; };
+		2B44FFFF1C8751350001CC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B44FFFD1C8751350001CC60 /* Main.storyboard */; };
+		2B5A6B8B1C88A42E0041631F /* MC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A6B8A1C88A42E0041631F /* MC.swift */; };
+		2BE0D7761C8894FA00515B9C /* EventWithKinveyRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0D7751C8894FA00515B9C /* EventWithKinveyRef.swift */; };
+		2BE0D7781C8897DA00515B9C /* AltInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0D7771C8897DA00515B9C /* AltInvite.swift */; };
+		4F2AB304F2D675FCBD9F49FB /* Pods_KinveyRelationships.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575042D654FA31A5F05C7FA2 /* Pods_KinveyRelationships.framework */; };
+		546480CB3F2A3337EE07B30C /* Pods_KinveyRelationshipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7808620C36FB3ADAB5D0092 /* Pods_KinveyRelationshipsTests.framework */; };
+		8FB46E94ADFE6AD92521059D /* Pods_KinveyRelationshipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308CC4F27A3298D4B5B3B234 /* Pods_KinveyRelationshipsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B44000B1C8751360001CC60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B44FFEE1C8751350001CC60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B44FFF51C8751350001CC60;
+			remoteInfo = KinveyRelationships;
+		};
+		2B4400161C8751360001CC60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B44FFEE1C8751350001CC60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B44FFF51C8751350001CC60;
+			remoteInfo = KinveyRelationships;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B4109511C8752730057E973 /* KinveyRelationships-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KinveyRelationships-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B4109521C8754760057E973 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2B4109541C87553D0057E973 /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		2B4400001C8751350001CC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4400031C8751350001CC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4400051C8751350001CC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B44000A1C8751360001CC60 /* KinveyRelationshipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinveyRelationshipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B44000E1C8751360001CC60 /* KinveyRelationshipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinveyRelationshipsTests.swift; sourceTree = "<group>"; };
+		2B4400101C8751360001CC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4400151C8751360001CC60 /* KinveyRelationshipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinveyRelationshipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4400191C8751360001CC60 /* KinveyRelationshipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinveyRelationshipsUITests.swift; sourceTree = "<group>"; };
+		2B44001B1C8751360001CC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B44FFF61C8751350001CC60 /* KinveyRelationships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveyRelationships.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B44FFF91C8751350001CC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B44FFFB1C8751350001CC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B44FFFE1C8751350001CC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5A6B8A1C88A42E0041631F /* MC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MC.swift; sourceTree = "<group>"; };
+		2BE0D7751C8894FA00515B9C /* EventWithKinveyRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventWithKinveyRef.swift; sourceTree = "<group>"; };
+		2BE0D7771C8897DA00515B9C /* AltInvite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltInvite.swift; sourceTree = "<group>"; };
+		308CC4F27A3298D4B5B3B234 /* Pods_KinveyRelationshipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinveyRelationshipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		575042D654FA31A5F05C7FA2 /* Pods_KinveyRelationships.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinveyRelationships.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5796438842D97E0B98E2E955 /* Pods-KinveyRelationships.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationships.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationships/Pods-KinveyRelationships.release.xcconfig"; sourceTree = "<group>"; };
+		6E3F86FCB97D30A96F6CCF92 /* Pods-KinveyRelationshipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationshipsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationshipsTests/Pods-KinveyRelationshipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8962D1AA5197348E40376311 /* Pods-KinveyRelationshipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationshipsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationshipsUITests/Pods-KinveyRelationshipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		925D111A85FDAA1463F0294B /* Pods-KinveyRelationships.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationships.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationships/Pods-KinveyRelationships.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0016E12608BDE9FEC11D1D /* Pods-KinveyRelationshipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationshipsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationshipsUITests/Pods-KinveyRelationshipsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5F0315B6A157132816F199F /* Pods-KinveyRelationshipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyRelationshipsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyRelationshipsTests/Pods-KinveyRelationshipsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7808620C36FB3ADAB5D0092 /* Pods_KinveyRelationshipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinveyRelationshipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4400071C8751360001CC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546480CB3F2A3337EE07B30C /* Pods_KinveyRelationshipsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4400121C8751360001CC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB46E94ADFE6AD92521059D /* Pods_KinveyRelationshipsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44FFF31C8751350001CC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2AB304F2D675FCBD9F49FB /* Pods_KinveyRelationships.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B44000D1C8751360001CC60 /* KinveyRelationshipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B44000E1C8751360001CC60 /* KinveyRelationshipsTests.swift */,
+				2B4400101C8751360001CC60 /* Info.plist */,
+			);
+			path = KinveyRelationshipsTests;
+			sourceTree = "<group>";
+		};
+		2B4400181C8751360001CC60 /* KinveyRelationshipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4400191C8751360001CC60 /* KinveyRelationshipsUITests.swift */,
+				2B44001B1C8751360001CC60 /* Info.plist */,
+			);
+			path = KinveyRelationshipsUITests;
+			sourceTree = "<group>";
+		};
+		2B44FFED1C8751350001CC60 = {
+			isa = PBXGroup;
+			children = (
+				2B44FFF81C8751350001CC60 /* KinveyRelationships */,
+				2B44000D1C8751360001CC60 /* KinveyRelationshipsTests */,
+				2B4400181C8751360001CC60 /* KinveyRelationshipsUITests */,
+				2B44FFF71C8751350001CC60 /* Products */,
+				8836D1E547BD90931EF38645 /* Pods */,
+				CCFA2B835D5ED06524F1E309 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B44FFF71C8751350001CC60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B44FFF61C8751350001CC60 /* KinveyRelationships.app */,
+				2B44000A1C8751360001CC60 /* KinveyRelationshipsTests.xctest */,
+				2B4400151C8751360001CC60 /* KinveyRelationshipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B44FFF81C8751350001CC60 /* KinveyRelationships */ = {
+			isa = PBXGroup;
+			children = (
+				2B44FFF91C8751350001CC60 /* AppDelegate.swift */,
+				2B44FFFB1C8751350001CC60 /* ViewController.swift */,
+				2B44FFFD1C8751350001CC60 /* Main.storyboard */,
+				2B4400001C8751350001CC60 /* Assets.xcassets */,
+				2B4400021C8751350001CC60 /* LaunchScreen.storyboard */,
+				2B4400051C8751350001CC60 /* Info.plist */,
+				2B4109511C8752730057E973 /* KinveyRelationships-Bridging-Header.h */,
+				2B4109521C8754760057E973 /* Event.swift */,
+				2B4109541C87553D0057E973 /* Invitation.swift */,
+				2BE0D7751C8894FA00515B9C /* EventWithKinveyRef.swift */,
+				2B5A6B8A1C88A42E0041631F /* MC.swift */,
+				2BE0D7771C8897DA00515B9C /* AltInvite.swift */,
+			);
+			path = KinveyRelationships;
+			sourceTree = "<group>";
+		};
+		8836D1E547BD90931EF38645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925D111A85FDAA1463F0294B /* Pods-KinveyRelationships.debug.xcconfig */,
+				5796438842D97E0B98E2E955 /* Pods-KinveyRelationships.release.xcconfig */,
+				E5F0315B6A157132816F199F /* Pods-KinveyRelationshipsTests.debug.xcconfig */,
+				6E3F86FCB97D30A96F6CCF92 /* Pods-KinveyRelationshipsTests.release.xcconfig */,
+				8962D1AA5197348E40376311 /* Pods-KinveyRelationshipsUITests.debug.xcconfig */,
+				BC0016E12608BDE9FEC11D1D /* Pods-KinveyRelationshipsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCFA2B835D5ED06524F1E309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				575042D654FA31A5F05C7FA2 /* Pods_KinveyRelationships.framework */,
+				F7808620C36FB3ADAB5D0092 /* Pods_KinveyRelationshipsTests.framework */,
+				308CC4F27A3298D4B5B3B234 /* Pods_KinveyRelationshipsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4400091C8751360001CC60 /* KinveyRelationshipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4400211C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationshipsTests" */;
+			buildPhases = (
+				AB0EAAB553CE71995CEF0CE7 /* Check Pods Manifest.lock */,
+				2B4400061C8751360001CC60 /* Sources */,
+				2B4400071C8751360001CC60 /* Frameworks */,
+				2B4400081C8751360001CC60 /* Resources */,
+				EFAF12D25C4519798B8E3254 /* Embed Pods Frameworks */,
+				8DD10C7F950198F8FBD1B9FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B44000C1C8751360001CC60 /* PBXTargetDependency */,
+			);
+			name = KinveyRelationshipsTests;
+			productName = KinveyRelationshipsTests;
+			productReference = 2B44000A1C8751360001CC60 /* KinveyRelationshipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B4400141C8751360001CC60 /* KinveyRelationshipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4400241C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationshipsUITests" */;
+			buildPhases = (
+				EE8FB1CEA1DECA17DAB109C8 /* Check Pods Manifest.lock */,
+				2B4400111C8751360001CC60 /* Sources */,
+				2B4400121C8751360001CC60 /* Frameworks */,
+				2B4400131C8751360001CC60 /* Resources */,
+				272C972AFB890BA6A546A52D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4400171C8751360001CC60 /* PBXTargetDependency */,
+			);
+			name = KinveyRelationshipsUITests;
+			productName = KinveyRelationshipsUITests;
+			productReference = 2B4400151C8751360001CC60 /* KinveyRelationshipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2B44FFF51C8751350001CC60 /* KinveyRelationships */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B44001E1C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationships" */;
+			buildPhases = (
+				A6D5D587C7CB5204F564C140 /* Check Pods Manifest.lock */,
+				2B44FFF21C8751350001CC60 /* Sources */,
+				2B44FFF31C8751350001CC60 /* Frameworks */,
+				2B44FFF41C8751350001CC60 /* Resources */,
+				002FD1BDDBA2FBFF3BE64D5D /* Embed Pods Frameworks */,
+				6AB584951106D7BD57C5DD84 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinveyRelationships;
+			productName = KinveyRelationships;
+			productReference = 2B44FFF61C8751350001CC60 /* KinveyRelationships.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B44FFEE1C8751350001CC60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Edward LoPinto";
+				TargetAttributes = {
+					2B4400091C8751360001CC60 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2B44FFF51C8751350001CC60;
+					};
+					2B4400141C8751360001CC60 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2B44FFF51C8751350001CC60;
+					};
+					2B44FFF51C8751350001CC60 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B44FFF11C8751350001CC60 /* Build configuration list for PBXProject "KinveyRelationships" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B44FFED1C8751350001CC60;
+			productRefGroup = 2B44FFF71C8751350001CC60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B44FFF51C8751350001CC60 /* KinveyRelationships */,
+				2B4400091C8751360001CC60 /* KinveyRelationshipsTests */,
+				2B4400141C8751360001CC60 /* KinveyRelationshipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4400081C8751360001CC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4400131C8751360001CC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44FFF41C8751350001CC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4400041C8751350001CC60 /* LaunchScreen.storyboard in Resources */,
+				2B4400011C8751350001CC60 /* Assets.xcassets in Resources */,
+				2B44FFFF1C8751350001CC60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002FD1BDDBA2FBFF3BE64D5D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyRelationships/Pods-KinveyRelationships-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		272C972AFB890BA6A546A52D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyRelationshipsUITests/Pods-KinveyRelationshipsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB584951106D7BD57C5DD84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyRelationships/Pods-KinveyRelationships-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD10C7F950198F8FBD1B9FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyRelationshipsTests/Pods-KinveyRelationshipsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D5D587C7CB5204F564C140 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0EAAB553CE71995CEF0CE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8FB1CEA1DECA17DAB109C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAF12D25C4519798B8E3254 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyRelationshipsTests/Pods-KinveyRelationshipsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4400061C8751360001CC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44000F1C8751360001CC60 /* KinveyRelationshipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4400111C8751360001CC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44001A1C8751360001CC60 /* KinveyRelationshipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44FFF21C8751350001CC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A6B8B1C88A42E0041631F /* MC.swift in Sources */,
+				2B4109551C87553D0057E973 /* Invitation.swift in Sources */,
+				2B44FFFC1C8751350001CC60 /* ViewController.swift in Sources */,
+				2BE0D7761C8894FA00515B9C /* EventWithKinveyRef.swift in Sources */,
+				2B4109531C8754760057E973 /* Event.swift in Sources */,
+				2BE0D7781C8897DA00515B9C /* AltInvite.swift in Sources */,
+				2B44FFFA1C8751350001CC60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B44000C1C8751360001CC60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B44FFF51C8751350001CC60 /* KinveyRelationships */;
+			targetProxy = 2B44000B1C8751360001CC60 /* PBXContainerItemProxy */;
+		};
+		2B4400171C8751360001CC60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B44FFF51C8751350001CC60 /* KinveyRelationships */;
+			targetProxy = 2B4400161C8751360001CC60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B4400021C8751350001CC60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4400031C8751350001CC60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2B44FFFD1C8751350001CC60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B44FFFE1C8751350001CC60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B44001C1C8751360001CC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B44001D1C8751360001CC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B44001F1C8751360001CC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925D111A85FDAA1463F0294B /* Pods-KinveyRelationships.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KinveyRelationships/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationships;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinveyRelationships/KinveyRelationships-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2B4400201C8751360001CC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5796438842D97E0B98E2E955 /* Pods-KinveyRelationships.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KinveyRelationships/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationships;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinveyRelationships/KinveyRelationships-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2B4400221C8751360001CC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F0315B6A157132816F199F /* Pods-KinveyRelationshipsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KinveyRelationshipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationshipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinveyRelationships.app/KinveyRelationships";
+			};
+			name = Debug;
+		};
+		2B4400231C8751360001CC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3F86FCB97D30A96F6CCF92 /* Pods-KinveyRelationshipsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KinveyRelationshipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationshipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinveyRelationships.app/KinveyRelationships";
+			};
+			name = Release;
+		};
+		2B4400251C8751360001CC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8962D1AA5197348E40376311 /* Pods-KinveyRelationshipsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KinveyRelationshipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationshipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KinveyRelationships;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2B4400261C8751360001CC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0016E12608BDE9FEC11D1D /* Pods-KinveyRelationshipsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KinveyRelationshipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLoPinto.KinveyRelationshipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KinveyRelationships;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B44001E1C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationships" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B44001F1C8751360001CC60 /* Debug */,
+				2B4400201C8751360001CC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4400211C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationshipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4400221C8751360001CC60 /* Debug */,
+				2B4400231C8751360001CC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4400241C8751360001CC60 /* Build configuration list for PBXNativeTarget "KinveyRelationshipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4400251C8751360001CC60 /* Debug */,
+				2B4400261C8751360001CC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B44FFF11C8751350001CC60 /* Build configuration list for PBXProject "KinveyRelationships" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B44001C1C8751360001CC60 /* Debug */,
+				2B44001D1C8751360001CC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B44FFEE1C8751350001CC60 /* Project object */;
+}
